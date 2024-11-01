@@ -1,0 +1,29 @@
+@keyframes vcla-jump-01 {
+    25% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    15%, 50% {
+        -webkit-transform: rotateX(20deg);
+        transform: rotateX(20deg);
+    }
+    75% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes vcla-jump-02 {
+    25% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    15%, 50% {
+        -webkit-transform: rotateX(20deg);
+        transform: rotateX(20deg);
+    }
+    75% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}

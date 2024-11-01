@@ -1,0 +1,90 @@
+@import "inc/keyframes-floating";
+@import "inc/keyframes-heartbeat";
+@import "inc/keyframes-shake";
+@import "inc/keyframes-spin";
+@import "inc/keyframes-jump";
+@import "inc/keyframes-color";
+
+.vc_element-icon.vcla-icon {
+    background-position: 0 0 !important;
+    background-image: url('images/vc-icon.png') !important;
+}
+
+.vcla_preview {
+    display: block;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.vcla_label {
+    font-weight: 600;
+}
+
+.vcla_preview .vcla_preview_shape {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-color: #f4f4f4;
+    background-position: 0 0 !important;
+    background-image: url('images/vc-preview.jpg') !important;
+    border-radius: 4px;
+    animation-name: vcla-shake-slow;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+}
+
+.vcla_item {
+    margin-top: 10px;
+}
+
+.vcla_item.vcla_item_horizontal .vcla_label {
+    height: 40px;
+    line-height: 40px;
+}
+
+/* Slider */
+.vcla_slider {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.vcla_slider * {
+    box-sizing: border-box;
+}
+
+.vcla_slider .ui-slider {
+    display: block;
+    width: 100%;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.vcla_slider .ui-slider .ui-slider-range {
+    display: block;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #999999;
+}
+
+.vcla_slider .ui-slider .ui-slider-handle {
+    width: auto;
+    padding: 6px 10px;
+    cursor: move;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 1;
+    top: -8px;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,14 @@
+@import "inc/keyframes-floating";
+@import "inc/keyframes-heartbeat";
+@import "inc/keyframes-shake";
+@import "inc/keyframes-spin";
+@import "inc/keyframes-jump";
+@import "inc/keyframes-color";
+
+.vc-animation {
+    &.vcla-paused-hover {
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+}
